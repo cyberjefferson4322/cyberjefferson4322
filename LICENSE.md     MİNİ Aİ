@@ -1,0 +1,10 @@
+///PYTHON//  //LİCENCE
+
+def new_func():
+    mesaj= input("ANKA: benden isteğiniz nedir yiğit bey?")
+
+    mesaj = str(mesaj)
+    mesaj = "Haşlama_süresi, yumurtaların_boyutların_ve_stediğini_kıvama_göre_değişebilir._Genellikle_yumurta_beyazı_tamamen_katı,_sarısı_ise_biraz_kıvamlı_olacak_şekilde_haşlanır._Ortalama_bir_yumurta_için,_yumurtaları_kaynar_suya_atıp,_7-8 dakika boyunca kaynatmanız_yeterli_olacaktır."  
+    print(f"hemen anlatıyım. {mesaj}")
+
+new_func()
