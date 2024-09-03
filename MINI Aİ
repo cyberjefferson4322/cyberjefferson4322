@@ -1,0 +1,12 @@
+//PYTHON// LİCENCE 
+
+
+
+kişi= input("ANKA: kişi ismini verirmisiniz  Yiğit bey ?")
+kişilik = input("ANKA:  kişi duygusal anlamda nasıl biri?")
+serveti = input("ANKA:  kişinin servetini verirmisiniz")
+çocuk_sayısı = input("ANKA: kaç çocugu var?")
+print(f"ANKA: {kişi} dünyanın en zengin iş insanlarından  biridir? ")
+print( f"ANKA: kişiliği {kişilik}  olan bir iş insanıdır?")
+print(f"ANKA: {serveti} servete sahip bir iş insanıdır")
+print(f"ANKA: {çocuk_sayısı} tane çocuğu var.")
