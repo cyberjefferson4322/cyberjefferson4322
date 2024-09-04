@@ -1,0 +1,8 @@
+//PYTHON//LİCANCE
+
+
+M1 =float(input("Anka: Yiğit Bey birinci gezegenin  kütlesini giriniz.") )
+M2 =float(input("Anka: Yiğit Bey ikinci gezegenin kütlesini giriniz."))
+d = float(input("Anka: Yiğit Bey uzaklığı giriniz."))
+formül = 6.673 * 10**-11 * M1 * M2/ d**2
+print(f"ANKA: Sonucumuz {formül} olur.")
