@@ -1,0 +1,9 @@
+//python //LİCANCE
+
+yaş = int(input("Anka: yaşınız kaç yiğit bey"))
+
+if yaş >= 18:
+     print("Anka: Ehliyet alabilirsiniz Yiğit Bey.")
+
+else:
+     print("Anka: Ehliyet alamıyorsunuz Yiğit bey")
