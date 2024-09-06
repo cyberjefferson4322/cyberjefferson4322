@@ -1,0 +1,13 @@
+//PYTHON  LİCANCE
+
+sıcaklık =int(input("Anka: Yiğit bey hava sıcaklığını girermisiniz?"))
+ 
+if sıcaklık >= 24  :
+    print(f"Anka: Hava güneşli veya parçalı bulutlu Yiğit Bey.    o :")
+    print(f"Anka: Hava sıcak Yiğit Bey:")
+elif sıcaklık <= 24 and sıcaklık >= 0  :
+    print("Anka:  hava  bulutlu veya yağmurlu Yiğit Bey . 00 0000 OR ??????")
+    print("Anka: hava ılık Yiğit bey")
+else:
+    print("Anka: hava yağışlı veya karlı. ")
+    print("Anka: hava soğuk yiğit bey")
