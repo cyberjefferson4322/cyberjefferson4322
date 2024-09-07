@@ -1,0 +1,12 @@
+//PYTHON // LİCANCE
+
+Başlık = input("Anka: Başlığı girebilirmisiniz Yiğit Bey?")
+
+Başlık = Başlık.upper()
+print(Başlık )
+
+Metin = input("Anka: Metni yazarmısınız yiğit bey? ")
+Metin= Metin.capitalize()
+print( Metin)
+
+
