@@ -1,0 +1,7 @@
+//PYTHON  //LİCANCE  
+import random 
+
+seçenekler = ("taş", "kağıt" , "makas")
+
+seçenekler= random.choice(seçenekler)
+print(f"Anka:{seçenekler} ")
