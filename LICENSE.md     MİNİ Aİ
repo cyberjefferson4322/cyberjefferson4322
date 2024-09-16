@@ -1,4 +1,4 @@
-///PYTHON//  //LİCENCE
+///PYTHON//  
 
 def new_func():
     mesaj= input("ANKA: benden isteğiniz nedir yiğit bey?")
