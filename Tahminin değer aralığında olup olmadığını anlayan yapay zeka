@@ -1,0 +1,37 @@
+//python //LİCANCE
+
+import random 
+ 
+en_düşük_sayı = 45
+en_yüksek_sayı = 567
+
+cevap = random.randint(en_düşük_sayı,en_yüksek_sayı)
+tahminler= 1
+çalışıyor= True
+
+print("Anka: Yiğit Bey sayıyı tahmin etme oyunu.")
+print(f"ANKA: Yiğit Bey en düşük {en_düşük_sayı} , en yüksek{en_yüksek_sayı} dır ")
+
+while çalışıyor:
+    
+    tahmin_sayısı =input("ANKA: Tahmininizi giriniz Yiğit bey")
+
+    if  tahmin_sayısı.isdigit():
+
+        tahmin=int(tahmin)
+        tahminler += 1  
+
+        if tahmin  < en_düşük_sayı or tahmin > en_yüksek_sayı:
+         
+         print("Anka: Yiğit Bey sayı aralık dışında lütfen aralığın dışında bir sayı veriniz. ")
+        elif tahmin < cevap:
+         print("Anka: Yiğit Bey girdiğiniz sayının değeri çok düşük bir seviyede")
+        elif tahmin > cevap:
+            print("Anka: Yiğit Bey girdiğiniz sayının değeri çok yüksek bir seviyede")
+        else: 
+         print("doğru cevap {cevap}")
+         print(f"Anka: Yiğit Bey tahmin sayısı yiğit bey {tahmin_sayısı}")
+        çalışıyor = False
+    else:
+             print("Anka: üzgünüm Yiğit Bey tahmininiz boş.")
+             print(f"Anka: Yiğit Bey n düşük {en_düşük_sayı} , en yüksek{en_yüksek_sayı} dır")
