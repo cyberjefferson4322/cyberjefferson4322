@@ -1,0 +1,26 @@
+//python // REFERANCES
+
+import random 
+
+seçenekler =("taş","makas","kağıt")
+oyuncu = None
+bilgisayar = random.choice(seçenekler)
+
+
+while oyuncu not in seçenekler:
+
+    oyuncu =input("Anka:taş kağıt makastan birini seçiniz")
+
+print (f"oyuncu :{oyuncu}")
+print(f"Anka:{bilgisayar}")
+
+if oyuncu == bilgisayar:
+  print("berabere")
+elif oyuncu == "kağıt" and bilgisayar =="taş":
+  print("oyuncu kazandı")
+elif oyuncu == "makas" and bilgisayar =="kağıt":
+  print("oyuncu kazandı")
+elif oyuncu == "taş" and bilgisayar =="makas":
+  print("oyuncu kazandı")
+else:
+  print(" Anka kazandı ,oyuncu kaybetti")
