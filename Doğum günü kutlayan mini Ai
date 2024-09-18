@@ -1,0 +1,10 @@
+//PYTHON //REFERANCE
+
+def doğum_günün_kutlu_olsun(x ,y):
+
+  print(f"Anka:doğum günün kutlu olsun {x}")
+  print(f" {y}")
+  print()
+ 
+doğum_günün_kutlu_olsun("Yiğit",20)
+doğum_günün_kutlu_olsun("Altunbulak",20)
