@@ -1,0 +1,19 @@
+//PYTHON //REFARANCE
+
+def toplama(x,y):
+    z = x + y
+    return z
+
+def çıkarma(x,y):
+   z= x - y 
+   return z
+def çarpma(x,y):
+   z =x * y 
+   return z
+def bölme(x,y):
+   z=x / y 
+   return z
+print(toplama(24,8))
+print(çıkarma(24,8))
+print(çarpma(24,8))
+print(bölme(24,8))
