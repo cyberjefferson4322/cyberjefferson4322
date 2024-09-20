@@ -5,4 +5,4 @@ def merhaba(isim,lakap,medeni_durum):
 
 merhaba(isim ="şaban",lakap ="inek",medeni_durum= "bekar")
 
- +  + + + +# Mizah amaçlıdır.Mizah dışı kullanmayınız!!!! Aksi taktirde Adalet bakanlığı tarafından yasal işlem uygulanacaktır.Kötüye kulanılması halinde sorumlu değilim.
+ +  +  + + +# Mizah amaçlıdır.Mizah dışı kullanmayınız!!!! Aksi taktirde Adalet bakanlığı tarafından yasal işlem uygulanacaktır.Kötüye kulanılması halinde sorumlu değilim.
