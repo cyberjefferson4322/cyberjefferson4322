@@ -1,0 +1,8 @@
+#PYTHON  #LİSANS
+
+def merhaba(isim,lakap,medeni_durum):
+   print(f"Anka: Günaydın {isim} {lakap}    {medeni_durum} " )
+
+merhaba(isim ="şaban",lakap ="inek",medeni_durum= "bekar")
+
+# Mizah amaçlıdır.Mizah dışı kullanmayınız!!!! Aksi taktirde Adalet bakanlığı tarafından yasal işlem uygulanacaktır.
