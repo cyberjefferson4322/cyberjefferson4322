@@ -1,4 +1,4 @@
-#PYTHON  #LİSANS
++#PYTHON  #LİSANS
 
 def merhaba(isim,lakap,medeni_durum):
    print(f"Anka: Günaydın {isim} {lakap}    {medeni_durum} " )
