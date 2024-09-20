@@ -1,4 +1,4 @@
-//python //LİCANCE
+#python #LİCANCE
 
 yaş = int(input("Anka: yaşınız kaç yiğit bey"))
 
