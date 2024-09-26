@@ -1,0 +1,21 @@
++ +  +  +  +  + + #PYTHON #REFERANCE
+
+def haftanın_günleri(gün):
+
+    match gün:
+        case 1:
+            return "Anka: bugün pazartesi"
+        case 2:
+            return "Anka: bugün salı"
+        case 3:
+            return "Anka: bugün çarşamba"
+        case 4:
+            return "Anka: bugün perşembe"
+        case 5:
+            return "Anka: bugün cuma"
+        case 6:
+            return "Anka: bugün cumartesi"
+        case 7:
+            return "Anka: bugün pazar"
+        
+print(haftanın_günleri(6))
